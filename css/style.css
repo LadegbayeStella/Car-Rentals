@@ -1,0 +1,81 @@
+body{
+  background-color: aliceblue;
+  color:white ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.mylogo img{
+  width: 70px;
+  color: wheat;
+
+}
+#container1{
+  background-color: coral;
+  color: white;
+  height: 60px;
+}
+#navbar{
+  background-color: black;
+  color: white;
+}
+#navbar ul{
+  padding: 0;
+  list-style:none ;
+}
+#navbar li{
+  display: inline;
+}
+#navbar a{
+  color: white;
+  text-decoration: none;
+  padding-right:15px;
+font-size: 18px;
+}
+#showcase{
+  background-image: url(../img/Cars-Wallpapers-1024x576.jpg);
+  background-position: center right;
+  height: 500px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom:  solid black;
+
+}
+#showcase h2{
+  line-height: 1.6em;
+  padding-top: 30px;
+  font-size: 50px;
+  color: whitesmoke;
+  padding-top: 60px;
+}
+.my img{
+  height: 50%;
+  width: 50%;
+  border-radius: 40px;
+  border-color: black;
+}
+.aboutus{
+color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: bold;
+font-style: normal;
+
+}.mypa{
+  color: black;
+  font-size: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-right: solid black;
+}
+.mysecondimg{
+  float: right;
+  margin-top: 75px;
+  border-color: solid green;
+}
