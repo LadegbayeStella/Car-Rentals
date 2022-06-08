@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <script src="./js/jquery-3.6.0.js"></script>
+  <script src="./js/scripts.js"></script>
+  <title>CAR-RENTED</title>
+</head>
+
+<body>
+  <!-- <i class="mylogo"> <img src="./img/car.svg" alt=""></i> -->
+  <header id="container1">
+    <i class="mylogo"> <img src="./img/car.svg" alt=""></i>
+  </header>
+  <nav id="navbar">
+    <div class="container">
+      <!-- creating my nav bar -->
+           <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">SHOP CARS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="showcase">
+    <div class="container">
+      <h2>
+        ImportDeals.NG<br>CAR RENTAL<br>SERVICES.
+      </h2>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-sm-6">
+          <h1 class="aboutus">ABOUT US</h1>
+          <p class="mypa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quisquam? Dignissimos,
+            quidem aliquam.
+            Ex dolore, qui accusamus iste neque dicta repellat. Quam nisi ab, ipsam eum rem fugiat a sint. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Dignissimos amet, consequatur earum adipisci vel enim totam
+            tempore ipsum dicta asperiores itaque vitae eos eius! Blanditiis fugiat doloribus cumque unde distinctio.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, accusantium quae. Fugit numquam velit eos,
+            illum libero perferendis.
+          </p><br>
+          <button  type="button" class="btn btn-success btn-group btn-lg" style="float: left; " >imported car rental</button><br><br>
+
+        </div>
+        <div class="col-6  col-sm- my img">
+          <img src="./img/car4.webp" alt="" class="num1"><br>
+          <img src="./img/car2.jpg" alt="" class="mysecondimg"><br>
+          <img src="./img/car3.jpeg" alt="" class="mythird"><br>
+          <img src="./img/car1.png" alt="" class="myforth"><br>
+        </div>
+      </div>
+    </div>
+  </section><br><br><br><br><br><br><br>
+
+  <aside id="sidebar"><br>
+    <h1 class="text">OUR CORE</h1><br><br><br>
+    <h1 class="text">VALUES</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-6  our"><br><br><br>
+          <ul class="ul">
+            <li class="head">Customers satisfaction</li><br>
+            <li class="head">Growth and innovation</li><br>
+            <li class="head">Integrity</h3><br><br>
+            <li class="head">Community responsibility</li>
+        </div>
+        </ul>
+        <div class="col-6 info">
+          <img src="./img/car1.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </aside>
+
+  <div>
+    <footer id="main-footer">
+      <p>Copyright $copy; stella code 2022 my car rentals website </p>
+    </footer>
+  </div>
+<button type="button" class="btn-group"></button>
+
+
+</body>
+
+</html>
+
+function numberOfOccurrencesInText(word, text) {
+  if (text.trim().length === 0) {
+    return 0;
+  }
+  const wordArray = text.match(/[i?/]/g);
+  let wordCount = 0;
+  wordArray.forEach(function(element) {
+    if (element.toLowerCase().includes(word.toLowerCase().)) {
+      wordCount++;
+    }
+  });
+  return wordCount;
+}
